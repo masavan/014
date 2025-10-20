@@ -1,0 +1,13 @@
+.container-fluid {
+  height: 500px;
+}
+
+.accordion--bg {
+  background-color: #3fc576;
+}
+.accordion--padding {
+  padding: 1rem 1.25rem;
+}
+.accordion-button-color {
+  color: #756ed3;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="index.js"></script>
+
+
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<header class="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <ul class="nav-list">
+      <li class="nav-item"><a href="#">Головна</a></li>
+      <li class="nav-item has-submenu">
+        <a href="#">Послуги</a>
+        <ul class="submenu-list">
+          <li class="submenu-item"><a href="#">Веб-розробка</a></li>
+          <li class="submenu-item"><a href="#">Дизайн</a></li>
+          <li class="submenu-item"><a href="#">Маркетинг</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="#">Портфоліо</a></li>
+      <li class="nav-item has-submenu">
+        <a href="#">Про нас</a>
+        <ul class="submenu-list">
+          <li class="submenu-item"><a href="#">Наша команда</a></li>
+          <li class="submenu-item"><a href="#">Історія</a></li>
+          <li class="submenu-item"><a href="#">Вакансії</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="#">Контакти</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="container-fluid text-center">
+    <div class="row flex">
+      <div class="left col-xl-3 col-lg-6 col-md-12 col-sm-12 col-12 "  >
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/Three_Sisters_Sunset.jpg" class="d-block w-100 h-750px" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/couple-making-heart-from-hands-sea-shore_23-2148019887.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/1354813862-0311327-www.nevsepic.com.ua.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/pexels-photo-1557652.jpeg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+
+          <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 order-lg-5 order-xl-1">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item accordion--bg ">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed accordion-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Феномен міграції птахів
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse accordion-color" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body acordi">Щороку мільярди птахів здійснюють неймовірні подорожі, долаючи тисячі кілометрів між місцями свого гніздування та зимівлі.
+                    Цей процес, відомий як міграція, є одним із найдивовижніших і найменш вивчених явищ у тваринному світі. Птахи орієнтуються за допомогою комбінації факторів:
+                    положення сонця, зірок, магнітного поля Землі та навіть запахів. Наприклад, полярна крячка здійснює найдовшу відому міграцію, пролітаючи з Арктики до Антарктики
+                    і назад, щороку долаючи понад 70 000 кілометрів.
+                    Ці інстинктивні перельоти є життєво необхідною адаптацією, що дозволяє птахам знаходити достатню кількість їжі та сприятливі умови для розмноження.</div>
+                </div>
+              </div>
+              <div class="accordion-item accordion--bg">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed accordion-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Загублене місто Мачу-Пікчу
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Високо в Андах Перу, на висоті 2430 метрів над рівнем моря,
+                    приховане від світу століттями, лежить Мачу-Пікчу. Це місто-цитадель було збудоване інками
+                    приблизно у 1450 році, але покинуте лише через століття, ймовірно, через іспанське завоювання.
+                    Світ знову дізнався про його існування лише у 1911 році завдяки американському історику Хайраму Бінгему.
+                    Архітектура міста вражає своєю точністю: кам'яні блоки ідеально підігнані один до одного без використання будівельного розчину.
+                    Комплекс включає храми, житлові приміщення та сільськогосподарські
+                    тераси, що демонструють високий рівень інженерних знань інків. Точне призначення міста досі залишається предметом наукових дискусій.</div>
+                </div>
+              </div>
+              <div class="accordion-item accordion--bg">
+                <h2 class="accordion-header" id="flush-headingThree">
+
+                  <button class="accordion-button collapsed accordion-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Ефект плацебо в медицині
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Ефект плацебо — це документально підтверджений феномен, коли стан пацієнта покращується після прийому "ліків", які насправді
+                    не містять жодної активної діючої речовини (наприклад, цукрової пігулки). Це явище демонструє потужний зв'язок між розумом та тілом. Дослідження показують,
+                    що очікування пацієнта та його віра в ефективність лікування можуть активувати ті ж самі нейронні шляхи в мозку, що й справжні медикаменти. Ефект плацебо не
+                    просто "в голові" — він може спричиняти реальні фізіологічні зміни, такі як вивільнення ендорфінів (природних знеболювальних)
+                    або зміну артеріального тиску. Саме тому при клінічних випробуваннях нових препаратів їхню дію завжди порівнюють із групою, що отримує плацебо.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="right col-xl-3 col-lg-6 col-md-12 col-sm-12 col-12 order-lg-1 order-xl-4">3</div>
+        </div>
+</div>
+
+<footer class="footer"></footer>
+
+</body>
+</html>
