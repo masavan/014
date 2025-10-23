@@ -1,8 +1,15 @@
 
+html{
+    font-size: 16px;
+}
 
 
-
-
+$border-radius:15px;
+$body-color: #756ed3;
+$body-bg: #3fc576;
+$white:#fff;
+$black:#000;
+$porpul: #190040;
 $container-max-widths: (
         sm: 540px,
         md: 720px,
@@ -15,13 +22,44 @@ $grid-gutter-width: 1.5rem !default;
 $grid-row-columns: 6 !default;
 .container-fluid{
   height: 500px;
+
 }
-$border-radius:20;
-$body-color: #756ed3;
-$body-bg: #3fc576;
-$white:#fff;
-$black:#000;
-$porpul: #190040;
+@media screen and (max-width: 540px) {
+    html{
+        font-size: 12px;
+    }
+    .nav-list{
+        font-size:12px
+    }
+
+
+}
+.border{
+    border-radius: $border-radius;
+
+}
+.form-label{
+    padding-left: 8px;
+
+}
+@media (min-width:541px ) and (max-width: 960px ) {
+    .nav-list{
+        font-size:14px
+    }
+}
+.btn{
+    &-primary{
+        background-color: $porpul;
+        border-radius: $border-radius;
+    }
+
+}
+.align-items-center{
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2rem;
+}
 
 $btn-transition: ease-in-out ;
 $carousel-control-color:             $white;

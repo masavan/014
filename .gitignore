@@ -1,4 +1,4 @@
-/node_modules/.bin/browser-sync
+ /node_modules/.bin/browser-sync
 /node_modules/.bin/browser-sync.cmd
 /node_modules/.bin/browser-sync.ps1
 /node_modules/.bin/detect-libc
